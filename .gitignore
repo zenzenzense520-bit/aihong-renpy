@@ -1,0 +1,11 @@
+# 2026-09-11：排除 Ren'Py 生成物、本地存档和废弃素材。
+*.rpyc
+*.rpymc
+cache/
+saves/
+logs/
+_removed_legacy_assets/
+.vscode/
+log.txt
+traceback.txt
+errors.txt
