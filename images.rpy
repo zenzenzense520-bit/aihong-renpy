@@ -13,30 +13,30 @@ transform pos_right:
     xalign 0.82
     yalign 1.0
 
-## 四张主背景覆盖全篇，避免同一章节内画风跳变。
-image bg temple = "images/generated/huazhou_temple.png"
-image bg city_north = "images/generated/huazhou_temple.png"
-image bg well = "images/generated/huazhou_temple.png"
-image bg slaughterhouse = "images/generated/huazhou_temple.png"
-image bg alley = "images/generated/huazhou_temple.png"
+## 2026-09-18：原图为 1672×941，按游戏 1920×1080 等比铺满，避免留黑边。
+image bg temple = Transform("images/generated/huazhou_temple.png", xysize=(1920, 1080), fit="cover")
+image bg city_north = Transform("images/generated/huazhou_temple.png", xysize=(1920, 1080), fit="cover")
+image bg well = Transform("images/generated/huazhou_temple.png", xysize=(1920, 1080), fit="cover")
+image bg slaughterhouse = Transform("images/generated/huazhou_temple.png", xysize=(1920, 1080), fit="cover")
+image bg alley = Transform("images/generated/huazhou_temple.png", xysize=(1920, 1080), fit="cover")
 
-image bg mountain_pass = "images/generated/famine_road.png"
-image bg campfire_cave = "images/generated/famine_road.png"
-image bg burning_village = "images/generated/famine_road.png"
-image bg taiping_town = "images/generated/famine_road.png"
+image bg mountain_pass = Transform("images/generated/famine_road.png", xysize=(1920, 1080), fit="cover")
+image bg campfire_cave = Transform("images/generated/famine_road.png", xysize=(1920, 1080), fit="cover")
+image bg burning_village = Transform("images/generated/famine_road.png", xysize=(1920, 1080), fit="cover")
+image bg taiping_town = Transform("images/generated/famine_road.png", xysize=(1920, 1080), fit="cover")
 
-image bg city_gate = "images/generated/luoyang_city.png"
-image bg luoyang_street = "images/generated/luoyang_city.png"
-image bg luoyang_inn = "images/generated/luoyang_city.png"
-image bg inn_room = "images/generated/luoyang_city.png"
-image bg yangzhou_guild = "images/generated/luoyang_city.png"
-image bg fu_mansion = "images/generated/luoyang_city.png"
-image bg mang_mountain = "images/generated/luoyang_city.png"
+image bg city_gate = Transform("images/generated/luoyang_city.png", xysize=(1920, 1080), fit="cover")
+image bg luoyang_street = Transform("images/generated/luoyang_city.png", xysize=(1920, 1080), fit="cover")
+image bg luoyang_inn = Transform("images/generated/luoyang_city.png", xysize=(1920, 1080), fit="cover")
+image bg inn_room = Transform("images/generated/luoyang_city.png", xysize=(1920, 1080), fit="cover")
+image bg yangzhou_guild = Transform("images/generated/luoyang_city.png", xysize=(1920, 1080), fit="cover")
+image bg fu_mansion = Transform("images/generated/luoyang_city.png", xysize=(1920, 1080), fit="cover")
+image bg mang_mountain = Transform("images/generated/luoyang_city.png", xysize=(1920, 1080), fit="cover")
 
-image bg yangzhou_canal = "images/generated/yangzhou_canal.png"
-image bg jiangyin = "gui/main_menu_v2.png"
-image bg nanyang = "images/generated/yangzhou_canal.png"
-image bg taoist_temple = "images/generated/huazhou_temple.png"
+image bg yangzhou_canal = Transform("images/generated/yangzhou_canal.png", xysize=(1920, 1080), fit="cover")
+image bg jiangyin = Transform("gui/main_menu_v2.png", xysize=(1920, 1080), fit="cover")
+image bg nanyang = Transform("images/generated/yangzhou_canal.png", xysize=(1920, 1080), fit="cover")
+image bg taoist_temple = Transform("images/generated/huazhou_temple.png", xysize=(1920, 1080), fit="cover")
 image bg black = "#000000"
 
 define fade_black = Fade(0.5, 0.3, 0.5, color="#000")

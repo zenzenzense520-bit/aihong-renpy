@@ -96,8 +96,9 @@ define gui.title_text_size = 75
 
 ## 标题菜单和游戏菜单使用的图像。
 ## 2026-09-11：主菜单改用统一生成的晚明主题视觉。
-define gui.main_menu_background = "gui/main_menu_v2.png"
-define gui.game_menu_background = "gui/main_menu_v2.png"
+## 2026-09-18：菜单图同步等比铺满 1920×1080 游戏画面。
+define gui.main_menu_background = Transform("gui/main_menu_v2.png", xysize=(1920, 1080), fit="cover")
+define gui.game_menu_background = Transform("gui/main_menu_v2.png", xysize=(1920, 1080), fit="cover")
 
 
 ## 对话 ##########################################################################
